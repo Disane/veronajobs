@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERONAJOBS | Exkluzív Munkaerő-Közvetítés</title>
+    <meta name="description" content="Prémium munkaerő-közvetítés Magyarországon és Szlovákiában.">
+
+    <!-- Google Fonts for Premium Look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons (using FontAwesome for UI icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="VeronaJobs Logo" class="logo-image">
+                <span class="logo-text">VERONAJOBS</span>
+            </div>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">Rólunk</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav_services">Szolgáltatások</a></li>
+                <li><a href="#candidates" class="nav-link" data-i18n="nav_candidates">Munkavállalóknak</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Kapcsolat</a></li>
+                <li class="lang-switch">
+                    <button class="lang-btn active" data-lang="sk">SK</button>
+                    <span class="separator">|</span>
+                    <button class="lang-btn" data-lang="hu">HU</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in-up" data-i18n="hero_title">VERONAJOBS &mdash;<br><span
+                    class="gold-text">EXKLUZÍV<br>MUNKAERŐ-<br>KÖZVETÍTÉS</span></h1>
+            <p class="fade-in-up delay-1" data-i18n="hero_subtitle">Összekötjük a megbízható munkaadókat a gondosan
+                válogatott szakemberekkel Magyarországon és Szlovákiában.<br><br>Diszkréció, bizalom, minőség – ez a
+                Veronajob.</p>
+
+            <div class="cta-buttons fade-in-up delay-2">
+                <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_partners">Partnereknek</a>
+                <a href="#candidates" class="btn btn-filled" data-i18n="hero_btn_candidates">Munkát keresek</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-dark">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">RÓLUNK</h2>
+            <div class="about-text">
+                <p data-i18n="about_text_1">A Veronajob több mint egy fejvadász cég. Stratégiai partnerek vagyunk, akik
+                    hidat képeznek a tehetség és a lehetőség között.</p>
+                <p data-i18n="about_text_2">Csapatunk szakértői több éves tapasztalattal rendelkeznek a prémium HR
+                    szolgáltatások terén, biztosítva, hogy ügyfeleink csak a legkiválóbb jelöltekkel találkozzanak.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Grid Layout) -->
+    <section id="services" class="section-black">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services_title">SZOLGÁLTATÁSAINK</h2>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-handshake"></i></div>
+                    <h3 data-i18n="service_1_title">Munkaerő-közvetítés prémium szinten</h3>
+                    <p data-i18n="service_1_desc">Teljes körű toborzási folyamat menedzselése, a specifikációtól a
+                        kiválasztásig.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-users-viewfinder"></i></div>
+                    <h3 data-i18n="service_2_title">Rugalmas létszámmegoldások</h3>
+                    <p data-i18n="service_2_desc">Időszakos és projektalapú munkaerő biztosítása gyorsan és hatékonyan.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-file-signature"></i></div>
+                    <h3 data-i18n="service_3_title">Teljes körű HR támogatás</h3>
+                    <p data-i18n="service_3_desc">Tanácsadás, bérszámfejtés és adminisztrációs terhek átvállalása.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="icon-box"><i class="fa-solid fa-earth-europe"></i></div>
+                    <h3 data-i18n="service_4_title">Nemzetközi közvetítés</h3>
+                    <p data-i18n="service_4_desc">Határon átnyúló lehetőségek Magyarország és Szlovákia között.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-dark">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">KAPCSOLAT</h2>
+            <p class="contact-intro" data-i18n="contact_intro">Lépjen velünk kapcsolatba, és közösen megtaláljuk a
+                legjobb megoldást.</p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name" data-i18n="form_name">Név</label>
+                    <input type="text" id="name" data-i18n-placeholder="form_name_placeholder" placeholder="Az Ön neve"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" data-i18n="form_email">E-mail cím</label>
+                    <input type="email" id="email" data-i18n-placeholder="form_email_placeholder"
+                        placeholder="email@pelda.hu" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" data-i18n="form_phone">Telefonszám</label>
+                    <input type="tel" id="phone" data-i18n-placeholder="form_phone_placeholder"
+                        placeholder="+36 30 123 4567">
+                </div>
+
+                <button type="submit" class="btn btn-filled btn-block" data-i18n="form_submit">KÜLDÉS</button>
+            </form>
+
+            <div class="contact-info-footer">
+                <h3 data-i18n="company_details_title">Fakturačné údaje</h3>
+                <p><i class="fa-solid fa-location-dot"></i> <span data-i18n="company_address">Záhradnícka 997/9, 932 01
+                        Veľký Meder</span></p>
+                <div class="legal-info">
+                    <p><span data-i18n="company_ico">IČO</span>: 56915811</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_rights">&copy; 2025 VERONAJOBS. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
