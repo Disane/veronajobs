@@ -147,23 +147,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Simple Form Submission Prevention (for demo)
-    const contactForm = document.getElementById('contactForm');
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = contactForm.querySelector('button');
-        const originalText = btn.innerText;
+    // const contactForm = document.getElementById('contactForm');
+    // contactForm.addEventListener('submit', (e) => {
+    //     e.preventDefault();
+    //     const btn = contactForm.querySelector('button');
+    //     const originalText = btn.innerText;
 
-        // Get current lang for success message
-        const currentLang = localStorage.getItem('veronajobs_lang') || 'sk';
-        const successMsg = currentLang === 'hu' ? 'KÜLDVE!' : 'ODOSLANÉ!';
+    //     // Get current lang for success message
+    //     const currentLang = localStorage.getItem('veronajobs_lang') || 'sk';
+    //     const successMsg = currentLang === 'hu' ? 'KÜLDVE!' : 'ODOSLANÉ!';
 
-        btn.innerText = successMsg;
-        btn.style.background = 'linear-gradient(45deg, #fff, #ccc)';
+    //     btn.innerText = successMsg;
+    //     btn.style.background = 'linear-gradient(45deg, #fff, #ccc)';
 
-        setTimeout(() => {
-            contactForm.reset();
-            btn.innerText = originalText;
-            btn.style.background = ''; // Reset to CSS default
-        }, 3000);
-    });
+    //     setTimeout(() => {
+    //         contactForm.reset();
+    //         btn.innerText = originalText;
+    //         btn.style.background = ''; // Reset to CSS default
+    //     }, 3000);
+    // });
 });
