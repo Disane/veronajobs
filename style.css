@@ -486,6 +486,15 @@ section {
     margin-bottom: 0.5rem;
 }
 
+.contact-info-footer a {
+    color: var(--text-gray);
+    text-decoration: none;
+}
+
+.contact-info-footer a:hover {
+    color: var(--gold-light);
+}
+
 .contact-info-footer i {
     margin-right: 10px;
     color: var(--gold-mid);

@@ -32,6 +32,7 @@ const translations = {
         footer_rights: "&copy; 2025 VERONAJOBS. Minden jog fenntartva.",
         company_details_title: "Számlázási adatok",
         company_address: "Záhradnícka 997/9, 932 01 Nagymegyer",
+        company_phone: "+421 944 384 669",
         company_ico: "IČO"
     },
     sk: {
@@ -67,6 +68,7 @@ const translations = {
         footer_rights: "&copy; 2025 VERONAJOBS. Všetky práva vyhradené.",
         company_details_title: "Fakturačné údaje",
         company_address: "Záhradnícka 997/9, 932 01 Veľký Meder",
+        company_phone: "+421 944 384 669",
         company_ico: "IČO"
     }
 };
