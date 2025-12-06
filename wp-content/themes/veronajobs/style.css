@@ -1,0 +1,15 @@
+/*
+Theme Name: VeronaJobs
+Theme URI: https://example.com/veronajobs
+Author: VeronaJobs
+Author URI: https://example.com
+Description: Custom theme for VeronaJobs recruitment site with job listings.
+Version: 1.0.0
+Tested up to: 6.5
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: veronajobs
+*/
+
+/* Import main theme styles */
+@import url('assets/css/main.css');
